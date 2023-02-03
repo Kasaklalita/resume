@@ -1,6 +1,7 @@
 import React from "react";
 import SectionTemplate from "./SectionTemplate";
 import SkillItem from "./UI/SkillItem";
+import skill from "./../assets/skill.svg";
 
 export default function Skills() {
   const skills = [
@@ -18,7 +19,7 @@ export default function Skills() {
   ];
 
   return (
-    <SectionTemplate title="Навыки">
+    <SectionTemplate title="Навыки" icon={skill}>
       {skills.map((skill) => (
         <SkillItem key={skill} skill={skill} />
       ))}

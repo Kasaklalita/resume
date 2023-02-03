@@ -2,6 +2,7 @@ import React from "react";
 import { IWorkExperience } from "../types";
 import SectionTemplate from "./SectionTemplate";
 import ExperienceItem from "./UI/ExperienceItem";
+import work from "./../assets/work.svg";
 
 export default function Experience() {
   const experiences = [
@@ -20,9 +21,9 @@ export default function Experience() {
     },
   ];
   return (
-    <SectionTemplate title="Опыт работы">
+    <SectionTemplate title="Опыт работы" icon={work}>
       {experiences.map((experience: IWorkExperience) => (
-        <ExperienceItem {...experience} />
+        <ExperienceItem key={experience.companyName} {...experience} />
       ))}
     </SectionTemplate>
   );

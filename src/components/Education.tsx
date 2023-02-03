@@ -2,6 +2,7 @@ import React from "react";
 import { IEducation } from "../types";
 import SectionTemplate from "./SectionTemplate";
 import EducationItem from "./UI/EducationItem";
+import education from "./../assets/education.svg";
 
 export default function Education() {
   const educations = [
@@ -20,9 +21,9 @@ export default function Education() {
   ];
 
   return (
-    <SectionTemplate title="Образование">
+    <SectionTemplate title="Образование" icon={education}>
       {educations.map((education: IEducation) => (
-        <EducationItem {...education} />
+        <EducationItem key={education.organizationName} {...education} />
       ))}
     </SectionTemplate>
   );

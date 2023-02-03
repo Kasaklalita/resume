@@ -1,9 +1,10 @@
 import React from "react";
 import SectionTemplate from "./SectionTemplate";
+import face from "./../assets/face.svg";
 
 export default function AboutMe() {
   return (
-    <SectionTemplate title="О себе">
+    <SectionTemplate title="О себе" icon={face}>
       <p className="font-light">
         Студент второго курса Московского Авиационного Института с шестимесячным
         опытом работы в качестве fullstack-разработчика. Создал единую базу

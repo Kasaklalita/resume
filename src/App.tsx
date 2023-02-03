@@ -9,17 +9,24 @@ import MainHeader from "./components/MainHeader";
 import MainInfo from "./components/MainInfo";
 import Merits from "./components/Merits";
 import Skills from "./components/Skills";
+import Courses from "./components/Courses";
+import Hobbies from "./components/Hobbies";
 
 function App() {
   return (
-    <div className="App">
-      <MainHeader />
-      <div className="columns flex gap-20 w-full p-4">
+    <div className="App flex justify-around">
+      {/* <MainHeader /> */}
+      <div
+        className="columns flex gap-20 w-full p-4"
+        style={{ maxWidth: "1000px" }}
+      >
         <div className="left-column flex flex-col gap-10 w-full">
           <MainInfo />
           <Experience />
           <Education />
+          <Courses />
           <AboutMe />
+          <Hobbies />
         </div>
         <div
           className="right-column flex flex-col gap-10 shrink-0"
