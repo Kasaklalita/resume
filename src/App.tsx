@@ -3,6 +3,7 @@ import "./App.css";
 import Contacts from "./components/Contacts";
 import Languages from "./components/Languages";
 import MainHeader from "./components/MainHeader";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         >
           <Contacts />
           <Languages />
+          <Skills />
         </div>
       </div>
     </div>
