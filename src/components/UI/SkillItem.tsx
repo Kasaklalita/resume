@@ -7,7 +7,7 @@ interface ISkillItemProps {
 export default function SkillItem({ skill }: ISkillItemProps) {
   return (
     <div>
-      <p>{skill}</p>
+      <p className="font-light">{skill}</p>
     </div>
   );
 }
