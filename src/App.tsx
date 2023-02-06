@@ -18,7 +18,7 @@ function App() {
       {/* <MainHeader /> */}
       <div
         className="columns flex gap-20 w-full p-4"
-        style={{ maxWidth: "1000px" }}
+        style={{ maxWidth: "1050px" }}
       >
         <div className="left-column flex flex-col gap-10 w-full">
           <MainInfo />
@@ -30,7 +30,7 @@ function App() {
         </div>
         <div
           className="right-column flex flex-col gap-10 shrink-0"
-          style={{ width: "250px" }}
+          style={{ width: "300px" }}
         >
           <Contacts />
           <Languages />
