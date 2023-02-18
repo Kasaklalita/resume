@@ -3,7 +3,7 @@ import { IWorkExperience } from "../../types";
 
 export default function ExperienceItem(experience: IWorkExperience) {
   return (
-    <div className="flex">
+    <div className="flex max-sm:flex-col">
       <div className="w-44 text-gray-400 shrink-0">
         {experience.dateStarted} — {experience.dateEnded}
       </div>

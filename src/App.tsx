@@ -17,7 +17,7 @@ function App() {
     <div className="App flex justify-around">
       {/* <MainHeader /> */}
       <div
-        className="columns flex gap-20 w-full p-4"
+        className="columns flex max-lg:flex-col gap-20 w-full p-4"
         style={{ maxWidth: "1050px" }}
       >
         <div className="left-column flex flex-col gap-10 w-full">
@@ -28,10 +28,7 @@ function App() {
           <AboutMe />
           <Hobbies />
         </div>
-        <div
-          className="right-column flex flex-col gap-10 shrink-0"
-          style={{ width: "300px" }}
-        >
+        <div className="right-column flex flex-col gap-10 shrink-0 max-lg:w-full w-72">
           <Contacts />
           <Languages />
           <Skills />

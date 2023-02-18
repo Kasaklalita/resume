@@ -4,7 +4,7 @@ import BlueSpan from "./BlueSpan";
 
 export default function CourseItem(course: ICourse) {
   return (
-    <div className="flex mb-2">
+    <div className="flex mb-2 max-sm:flex-col">
       <div className="w-44 text-gray-400 shrink-0">{course.graduatedYear}</div>
       <div>
         <h1 className="font-medium">{course.organization}</h1>

@@ -4,7 +4,7 @@ import me from "../assets/Veniamin.jpg";
 export default function MainInfo() {
   return (
     <div>
-      <div className="flex gap-6 mb-4">
+      <div className="flex gap-6 mb-4 max-sm:flex-col max-sm:items-center max-sm:text-center">
         <img className="w-48 rounded-md" src={me} alt="" />
         <div className="">
           <h1
