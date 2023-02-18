@@ -15,7 +15,7 @@ export default function ExperienceItem(experience: IWorkExperience) {
           <span className=" font-medium">{experience.position}</span>
         </div>
         <div className="font-light">
-          <p>В мои обязаности входит следующее:</p>
+          <p>В мои обязанности входит следующее:</p>
           <ul className="pl-6 list-disc">
             {experience.responsibilities.map((responsibility) => (
               <li key={responsibility}>{responsibility}</li>

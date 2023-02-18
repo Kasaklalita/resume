@@ -13,7 +13,9 @@ export default function MainInfo() {
           >
             Полиенко Вениамин Сергеевич
           </h1>
-          <h2 className="text-xl font-medium uppercase">Backend разработчик</h2>
+          <h2 className="text-xl font-medium uppercase">
+            Fullstack разработчик
+          </h2>
         </div>
       </div>
       {/* <div className="flex">
